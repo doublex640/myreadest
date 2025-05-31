@@ -299,9 +299,9 @@ const getLayoutStyles = (
     height: 1em;
     mix-blend-mode: ${isDarkMode ? 'screen' : 'multiply'};
   }
-  p:has(> img:only-child) img, span:has(> img:only-child) img {
-    height: auto;
-  }
+  // p:has(> img:only-child) img, span:has(> img:only-child) img {
+  //   height: auto;
+  // }
   p:has(img), span:has(img) {
     background-color: ${bg};
   }
